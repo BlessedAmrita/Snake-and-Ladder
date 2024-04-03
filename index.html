@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        
+            <div class="main">
+                <div class="player-1-scoring">
+                    <h2>Player 1</h2>
+                    <span>Initial Position: </span> <span id="initial-position-1">1</span> <br/>
+                    <span>Final Position: </span> <span id="final-position-1">#</span>
+                </div>
+                <div class="border">
+                <div class="game-box">
+
+                    <div class="player-1-position" style="grid-row: 10;grid-column: 1;"><p>1</p></div>
+                    <div class="player-2-position" style="grid-row: 10;grid-column: 1;"><p>2</p></div>
+    
+                </div>
+            </div>
+                <div class="player-2-scoring">
+                    <h2>Player 2</h2>
+                    <span>Initial Position: </span> <span id="initial-position-2">1</span> <br/>
+                    <span>Final Position: </span> <span id="final-position-2">#</span>
+                </div>
+            </div>
+        
+        <div class="dice-button">
+            <button id="roll-dice">Roll Dice</button>
+        </div>
+        <div class="number-box">
+            <div class="player-1">
+                <span>Player 1: </span> <span id="player-1-steps">#</span>
+            </div>
+            <div class="player-2">
+                <span>Player 2: </span> <span id="player-2-steps">#</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
