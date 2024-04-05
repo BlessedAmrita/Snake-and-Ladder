@@ -86,7 +86,7 @@ let row; let column;
 
 function move_position_1(dice_number) {
   let position = findPosition_1() + dice_number;
-  if(position>=100) return;
+  if(position>100) return;
   position=snakeCheck(position);
   position= ladderCheck(position);
   if (position % 10 !== 0) {
